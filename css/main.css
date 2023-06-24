@@ -1,0 +1,180 @@
+@font-face {
+  font-family: "ComfortaaR";
+  src: url(/fonts/Comfortaa-Regular.ttf);
+}
+@font-face {
+  font-family: "ComfortaaL";
+  src: url(/fonts/Comfortaa-Light.ttf);
+}
+@font-face {
+  font-family: "ComfortaaB";
+  src: url(/fonts/Comfortaa-Bold.ttf);
+}
+body {
+  font-family: ComfortaaR;
+  padding: 100px 0px 20px 0px;
+  margin: 0px;
+}
+button {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  border-radius: 12px;
+  font-family: ComfortaaR;
+  padding: 7px 10px 7px 10px;
+  width: 80px;
+  background-color: white;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: white;
+  z-index: 100;
+  top: 0px;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+}
+header ul {
+  list-style: none;
+}
+header ul li {
+  display: inline-block;
+  padding: 0px 20px;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+header ul li:hover {
+  color: rgb(130, 179, 211);
+}
+#logo {
+  cursor: pointer;
+  width: 200px;
+}
+#nav {
+  white-space: nowrap;
+}
+header div button {
+  margin: 0px 8px;
+  cursor: pointer;
+  transition: all .2s ease;
+  font-family: ComfortaaB;
+  border-width: 2px;
+}
+header div button:hover {
+  color: rgb(130, 179, 211);
+  border-color: white;
+}
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+.searchBar {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  left: center;
+  top: 350px;
+  background-color: white;
+  width: 1000px;
+  border-radius: 50px;
+  padding: 0px 0px 15px 0px;
+  box-shadow: 2px 2px 5px #00000027;
+}
+.searchBar input {
+  border-radius: 50px;
+  padding: 5px;
+  font-family: ComfortaaB;
+  width: 150px;
+}
+.searchBar h4 {
+  padding: 15px 2px 5px 2px;
+  margin: 0px;
+}
+.searchBar img {
+  margin-top: 15px;
+  transition: all .2s ease;
+  border-radius: 50px;
+}
+.searchBar img:hover {
+  box-shadow: 2px 2px 5px #00000047;
+}
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between; 
+  height: 280px;
+  align-items: center;
+  margin: 70px 0px;
+  padding: 0px 300px;
+}
+.categories img {
+  cursor: pointer;
+  transition: all .2s ease;
+}
+.categories img:hover {
+  padding-bottom: 15px;
+}
+.resort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 70px;
+}
+.resort h1 {
+  font-size: 45px;
+  padding-right: 100px;
+  margin-bottom: 50px;
+}
+.resort #rLeft img {
+  cursor: pointer;
+  transition: all .2s ease;
+}
+.resort #rLeft img:hover {
+  background-color: rgb(235, 235, 235);
+  border-radius: 50px;
+  padding: 15px;
+}
+.app {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 225px;
+  background-color: rgb(250, 249, 244);
+  padding: 35px;
+}
+.app h2 {
+  font-size: 35px;
+  margin: 0px;
+}
+.app p {
+  font-size: 15px;
+  font-family: ComfortaaB;
+}
+.app img {
+  width: 500px;
+  cursor: pointer;
+}
+.socialLinks a img {
+  width: 25px;
+  transition: all .2s ease; 
+}
+.socialLinks a img:hover {
+  opacity: .5;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  padding-top: 20px;
+}
+
